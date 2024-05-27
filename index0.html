@@ -1,155 +1,158 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width" initial-scale="1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="basic details4.css">
+  <title>Bike Service Form</title>
+  <style>
+    .error {
+      color: red;
+      display: none;
+    }
+  </style>
 </head>
 <body>
 <div id="font">
-<table id="header"><tr>
-<td><img src="/Cycle Restore Logo1.png"></td>
-<td id="home"><a href=" ">Home</a></td>
-<td id="services"><a href=" ">Services</a></td>
-<td id="about us"><a href=" ">About Us</a></td>
-<td id="contact us"><a href=" ">Contact Us</a></td>
-</tr>
+<table id="header">
+  <tr>
+    <td><img src="/Cycle Restore Logo1.png" alt="Cycle Restore Logo"></td>
+    <td id="home"><a href=" ">Home</a></td>
+    <td id="services"><a href=" ">Services</a></td>
+    <td id="about us"><a href=" ">About Us</a></td>
+    <td id="contact us"><a href=" ">Contact Us</a></td>
+  </tr>
 </table>
 <br><br><br><br><br>
-    <div class="image">
-        <div class="content">
-          
-          <h2>Doorstep Service  @Home</h2>
-        </div>
-      </div>
+<div class="image">
+  <div class="content">
+    <h2>Doorstep Service @Home</h2>
+  </div>
+</div>
 <div id="font1"><br><br>
-   <h1>Schedule your Bike Service Today!</h1><br>
-<table id="pages">
-<tr>
-<td align="right"><a href="index.html"><img  id="hover" src="/main bs.png"></a></td>
-<td><a style="text-decoration:None;" href="index.html">Basic Details</a></td>
-<td align="right"><a href="index1.html"><img src="/main serv.png"></a></td>
-<td><a style="text-decoration:None;" href="index1.html">Service</a></td>
-<td align="right"><a href="index2.html"></a><img src="/main dat.png"></a></td>
-<td><a style="text-decoration:None;" href="index2.html">Date and time</a></td>
-<td align="right"><a href="index3.html"></a><img src="/main sum.png"></td>
-<td><a style="text-decoration:None;" href="index3.html">Summary</a></td>
-</tr>
-</table><br>
-<form  name = "contact-form" align="center"  >
-<select name = "city" id="city">
-<option>
-  City
-</option>
-<option value="Visakhapatnam">Visakhapatnam</option>
-<option value="Vijayawada">Vijayawada</option>
-<option value="Guntur">Guntur</option>
-<option value="Nellore">Nellore</option>
-<option value="Kurnool">Kurnool</option>
-<option value="Rajahmundry">Rajahmundry</option>
-<option value="Tirupati">Tirupati</option>
-<option value="Kakinada">Kakinada</option>
-<option value="Anantapur">Anantapur</option>
-<option value="Eluru">Eluru</option>         
-</select><br><br>
-<input type="text" name="Pincode" id="Pincode" value="" placeholder=" Pincode" size="40"><br><br>  
-<input type="text"  name="Brand" id = "Brand" placeholder=" Brand" value="" size="40"><br><br>
-<select name = "cycle" id="cycle">
-<option>
-  Type of cycle
-</option>
-<option value = "Geared">Geared</option>
-<option value = "Non-Geared">Non-Geared</option>
-</select><br><br>
-<input type="text" value="" placeholder=" Name" name="Name" id="Name" size="40"><br><br>
-<input type="email" value="" placeholder=" Email"   name ="Email" id = "Email" size="40"><br><br>
-<input type="text" value="" placeholder=" Phone"    name ="Phone" id = "Phone" size="40"><br><br>
-<input type="text" value="" placeholder=" Address " name =" Address " id = "Address" size="40" id="addr"><br>
-<button type="submit" class="Button" name="Button">  submit</button>
-</form><br>
-<table id="ser">
-<td><a style="margin-left:30px;color:rgb(16, 0, 0);text-decoration:none;" href="index1.html">Service</td>
-<td><img style="width:30;height:27px;margin-right:20px;border-radius:15px;" src="/Group 120.png"></td>
-</table>
+  <h1>Schedule your Bike Service Today!</h1><br>
+  <table id="pages">
+    <tr>
+      <td align="right"><a href="index.html"><img id="hover" src="/main bs.png" alt="Basic Details"></a></td>
+      <td><a style="text-decoration:none;" href="index.html">Basic Details</a></td>
+      <td align="right"><a href="index1.html"><img src="/main serv.png" alt="Service"></a></td>
+      <td><a style="text-decoration:none;" href="index1.html">Service</a></td>
+      <td align="right"><a href="index2.html"><img src="/main dat.png" alt="Date and Time"></a></td>
+      <td><a style="text-decoration:none;" href="index2.html">Date and Time</a></td>
+      <td align="right"><a href="index3.html"><img src="/main sum.png" alt="Summary"></a></td>
+      <td><a style="text-decoration:none;" href="index3.html">Summary</a></td>
+    </tr>
+  </table><br>
+  <form name="contact-form" align="center">
+    <select name="city" id="city">
+      <option value="">City</option>
+      <option value="Visakhapatnam">Visakhapatnam</option>
+      <option value="Vijayawada">Vijayawada</option>
+      <option value="Guntur">Guntur</option>
+      <option value="Nellore">Nellore</option>
+      <option value="Kurnool">Kurnool</option>
+      <option value="Rajahmundry">Rajahmundry</option>
+      <option value="Tirupati">Tirupati</option>
+      <option value="Kakinada">Kakinada</option>
+      <option value="Anantapur">Anantapur</option>
+      <option value="Eluru">Eluru</option>
+    </select><br><br>
+    <input type="text" name="Pincode" id="Pincode" value="" placeholder="Pincode" size="40"><br><br>
+    <span class="error" id="pincode-error">Enter a valid pincode</span><br>
+    <input type="text" name="Brand" id="Brand" placeholder="Brand" value="" size="40"><br><br>
+    <select name="cycle" id="cycle">
+      <option value="">Type of cycle</option>
+      <option value="Geared">Geared</option>
+      <option value="Non-Geared">Non-Geared</option>
+    </select><br><br>
+    <input type="text" value="" placeholder="Name" name="Name" id="Name" size="40"><br><br>
+    <input type="email" value="" placeholder="Email" name="Email" id="Email" size="40"><br><br>
+    <input type="text" value="" placeholder="Phone" name="Phone" id="Phone" size="40"><br><br>
+    <input type="text" value="" placeholder="Address" name="Address" id="Address" size="40"><br>
+    <button type="submit" class="Button" name="Button">Submit</button>
+  </form><br>
+  <table id="ser">
+    <tr>
+      <td><a style="margin-left:30px;color:rgb(16, 0, 0);text-decoration:none;" href="index1.html">Service</a></td>
+      <td><img style="width:30px;height:27px;margin-right:20px;border-radius:15px;" src="/Group 120.png" alt="Service"></td>
+    </tr>
+  </table>
 </div>
 </div>
 
 <div id="footer">
-    
   <div id="icons">
-      <img src="/LinkedIn.png"><img src="/Instagram.png"><img src="/WhatsApp.png"><img src="/Facebook1.png"><img src="/Twitter.png">
+    <img src="/LinkedIn.png" alt="LinkedIn">
+    <img src="/Instagram.png" alt="Instagram">
+    <img src="/WhatsApp.png" alt="WhatsApp">
+    <img src="/Facebook1.png" alt="Facebook">
+    <img src="/Twitter.png" alt="Twitter">
   </div>
-  
-  
   <div id="all">
-      <div id="top">
-      <img id="logo" src="/Cycle Restore Logo1.png">
+    <div id="top">
+      <img id="logo" src="/Cycle Restore Logo1.png" alt="Cycle Restore Logo">
       <div id="para">
-          <p>Your Trusted Fitness Equipment Service Provider across 25+ Indian Cities. Installation, Maintenance, Repair Services for Residential and Commercial Clients. Committed to Customer Satisfaction.</p>
+        <p>Your Trusted Fitness Equipment Service Provider across 25+ Indian Cities. Installation, Maintenance, Repair Services for Residential and Commercial Clients. Committed to Customer Satisfaction.</p>
       </div>
-      </div>
-      
-      <div id="paraa">
-        <h4>SERVING IN</h4>
-        <ul>
-          <li>Visakhapatnam</li>
-          <li>Delhi</li>
-          <li>Pune</li>
-          <li>Hyderabad</li>
-          <li>Chennai</li>
-          <li>Coimbatore</li>
-       </ul>
-      </div>
-       <div id="paraaa">
-          <h4>QUICK LINKS</h4>
-       <ul>
-            <li><a href="index7.html">Privacy Policy</a></li>
-            <li><a href="index5.html">Refund Policy</a></li>
-            <li><a href="index8.html">Shipping Policy</a></li>
-            <li><a href="index6.html">Terms and Conditions</a></li>
-       </ul>
-      </div>
-      
-      <div id="paraaaa">
-        <h4>CONTACT</h4>
-        <p><img src="/Phone.png">08062177481</p>
-        <p><img src="/Gmail Logo.png">info@example.com</p>
-        <p><img src="/mdi_address-marker.png">A-hub, Andhra University, Maddilapalem, Visakhapatnam, 530003, Andhra Pradesh, India</p>
-      </div>
-      
-  
+    </div>
+    <div id="paraa">
+      <h4>SERVING IN</h4>
+      <ul>
+        <li>Visakhapatnam</li>
+        <li>Delhi</li>
+        <li>Pune</li>
+        <li>Hyderabad</li>
+        <li>Chennai</li>
+        <li>Coimbatore</li>
+      </ul>
+    </div>
+    <div id="paraaa">
+      <h4>QUICK LINKS</h4>
+      <ul>
+        <li><a href="index7.html">Privacy Policy</a></li>
+        <li><a href="index5.html">Refund Policy</a></li>
+        <li><a href="index8.html">Shipping Policy</a></li>
+        <li><a href="index6.html">Terms and Conditions</a></li>
+      </ul>
+    </div>
+    <div id="paraaaa">
+      <h4>CONTACT</h4>
+      <p><img src="/Phone.png" alt="Phone">08062177481</p>
+      <p><img src="/Gmail Logo.png" alt="Email">info@example.com</p>
+      <p><img src="/mdi_address-marker.png" alt="Address">A-hub, Andhra University, Maddilapalem, Visakhapatnam, 530003, Andhra Pradesh, India</p>
+    </div>
+  </div>
+  <div id="downright"><h5>Cycle your way to happiness</h5></div>
+  <div id="downleft">Copyright @ 2024, Cyclerestore Services. All Rights Reserved.</div>
 </div>
-<div id="downright"><h5>Cycle your way to happiness</h5></div>
-<div id="downleft">Copyright @ 2024, Cyclerestore Services. All Rights Reserved.</div>
  
-  <script>
-      // const scriptURL = 'https://script.google.com/macros/s/AKfycbwxrr9gY3hHl86SuG0uv8nQa0NJHnmqFYqzCzrqM0w4wWDuE-B--j9r9iwch5FHZK6o/exec'
+<script>
+const validPincodes = {
+  Visakhapatnam: ["530001", "530002", "530003", "530004", "530005", "530007", "530008", "530009", "530011", "530012", "530013", "530014", "530015", "530016", "530017", "530018", "530020", "530022", "53024"],
+  Vijayawada: ["520002", "520003", "520004", "520005", "520006", "520007", "520008", "520009", "520010", "520011", "520012", "520013", "520014", "520015", "520016", "521104", "521107", "521108", "521134", "521137"],
+  Guntur: ["522001", "522002", "522003", "522004", "522005", "522006", "522007", "522008", "522009", "522010", "522011", "522012", "522013", "522014", "522015", "522016", "522017", "522018", "522019", "522020"],
+  Nellore: ["524001", "524002", "524003", "524004", "524005", "524006", "524007", "524008", "524009", "524010", "524011", "524012", "524013", "524014", "524015", "524016", "524017", "524018", "524019", "524020"],
+  Kurnool: ["518001", "518002", "518003", "518004", "518005", "518006", "518007", "518008", "518009", "518010", "518011", "518012", "518013", "518014", "518015", "518016", "518017", "518018", "518019", "518020"],
+  Rajahmundry: ["533101", "533102", "533103", "533104", "533105", "533106", "533107", "533108", "533109", "533110", "533111", "533112", "533113", "533114", "533115", "533116", "533117", "533118", "533119", "533120"],
+  Tirupati: ["517501", "517502", "517503", "517504", "517505", "517506", "517507", "517508", "517509", "517510", "517511", "517512", "517513", "517514", "517515", "517516", "517517", "517518", "517519", "517520"],
+  Kakinada: ["533001", "533002", "533003", "533004", "533005", "533006", "533007", "533008", "533009", "533010", "533011", "533012", "533013", "533014", "533015", "533016", "533017", "533018", "533019", "533020"],
+  Anantapur: ["515001", "515002", "515003", "515004", "515005", "515006", "515007", "515008", "515009", "515010", "515011", "515012", "515013", "515014", "515015", "515016", "515017", "515018", "515019", "515020"],
+  Eluru: ["534001", "534002", "534003", "534004", "534005", "534006", "534007", "534008", "534009", "534010", "534011", "534012", "534013", "534014", "534015", "534016", "534017", "534018", "534019", "534020"]
+};
 
-      var btn1 = document.querySelector(".Button");
-var form = document.querySelector('.contact-form');
-btn1.addEventListener('click', function(event) {
-    event.preventDefault();
-    action1();
-    action3();
+document.querySelector('form').addEventListener('submit', function(event) {
+  const city = document.getElementById('city').value;
+  const pincode = document.getElementById('Pincode').value;
+  const pincodeError = document.getElementById('pincode-error');
+
+  if (city && pincode) {
+    if (!validPincodes[city].includes(pincode)) {
+      pincodeError.style.display = 'block';
+      event.preventDefault();
+    } else {
+      pincodeError.style.display = 'none';
+    }
+  }
 });
-    
- 
-    
-    function action3() {
-      window.location.href = "index1.html";
-    }
-
-    function action1(){
-
-         var name = document.getElementById("Name").value;
-         localStorage.setItem('name', name);
-         localStorage.setItem('brand',document.getElementById('Brand').value);
-         localStorage.setItem('cycle', document.getElementById('cycle').value);
-         localStorage.setItem('pin', document.getElementById('Pincode').value);
-         localStorage.setItem('city', document.getElementById('city').value);
-         localStorage.setItem('address', document.getElementById('Address').value);
-         localStorage.setItem('phone', document.getElementById('Phone').value);
-         localStorage.setItem('email', document.getElementById('Email').value);
-          
-    }
-    </script>
-    </body>
-    </html>
+</script>
+</body>
+</html>
