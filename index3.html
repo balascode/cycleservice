@@ -1,4 +1,4 @@
-<html>
+ <html>
 <head>
 <title>summary</title>
 <link rel="stylesheet" href="summary.css">
@@ -35,14 +35,14 @@
 <p>Your appointment booking summary</p>
 <div id="cust">
 <div>Customer&nbsp;&nbsp;:&nbsp;&nbsp;</div>
-<div> Raju</div>
+<div id="name">Sai</div>
 </div><br><br>
 <div id="sad">
 <div id="serv">
 <div>Service<br><br>Date & Time<br><br>Total Summary</div>
 </div><br>
 <div id="dat">
-<div>Basic Service<br><br>April 26,2024(9:00am-11:00am)<br><br>Rs.875</div>
+<div id="details">Basic Service<br><br>April 26,2024(9:00am-11:00am)<br><br>Rs.875</div>
 </div>
 </div>
 <hr>
@@ -52,7 +52,7 @@
 </div>
 <br><br>
 <div id="submit">
-<button><a style="font-size:17px"; href="index4.html">Book now</a></button>
+<button><a style="font-size:17px" class="btn1">Book now</a></button>
 </div>
 </div>
 </div>
@@ -104,5 +104,67 @@
   </div>
   <div id="downright"><h5>Cycle your way to happiness</h5></div>
   <div id="downleft">Copyright @ 2024, Cyclerestore Services. All Rights Reserved.</div>
+  <script>
+  document.getElementById('name').innerText = localStorage.getItem('name');
+var details = document.getElementById('details');
+var cost = "999";
+ switch (localStorage.getItem('service')) {
+  case 'Basic Service':
+    cost = "875";
+    break;
+  case 'Standard Service':
+    cost = "1099";
+    break;
+  case 'Advanced Service':
+    cost = "1399";
+    break;
+  default:
+    // Optionally handle cases where the service is not recognized
+    console.log("Unrecognized service type. Using default cost.");
+    break;
+}
+
+details.innerHTML = localStorage.getItem('service') + "<br><br>" + localStorage.getItem('selectedMonth') + " " + localStorage.getItem('selectedDay') + "," + localStorage.getItem('selectedYear') + " " + localStorage.getItem('session') + "<br><br>" + cost;
+
+var amount = document.getElementById('money'); // Move this line up
+amount.innerText = cost;
+
+var service = localStorage.getItem('service');
+var name = localStorage.getItem('name');
+var city = localStorage.getItem('city');
+var cycle = localStorage.getItem('cycle');
+var pincode = localStorage.getItem('pin');
+var brand = localStorage.getItem('brand');
+var email = localStorage.getItem('email');
+var phone = localStorage.getItem('phone');
+var add = localStorage.getItem('address');
+localStorage.setItem('cost',cost);
+var date = localStorage.getItem('selectedMonth') + " " + localStorage.getItem('selectedDay') + "," + localStorage.getItem('selectedYear');
+var formData = new FormData(); // Use new keyword
+formData.append('city', city);
+formData.append('Pincode', pincode);
+formData.append('Brand', brand);
+formData.append('cycle', cycle);
+formData.append('Name', name);
+formData.append('Email', email);
+formData.append('cost', cost);  
+formData.append('service', service);
+formData.append('phone', phone);
+formData.append('date', date);
+formData.append('address', add);
+console.log(formData);
+document.querySelector('.btn1').addEventListener('click', function() {
+  action1();
+ 
+});
+
+function action1() {
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwykYdcJ2_FjXhkvRssQjlFXoovYjI8wH3lW6sKt891IagKIAR6v-2I71l3hN8fD37h/exec';
+  fetch(scriptURL, { method: 'POST', body : formData })  
+    .then(() => { window.location.href = "index4.html"; })
+    .catch(error => console.error('Error!', error.message))
+}
+
+  </script>
 </body>
 </html>
