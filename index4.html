@@ -23,11 +23,11 @@
 <div id="ko">Type of service<br><br>Date of appointment<br><br>Slot-timing<br><br>Service Id<br><br>Total amount<br><br>Payment Status<br><br>Payment Mode</div>
 <div id="jk">:<br><br>:<br><br>:<br><br>:<br><br>:<br><br>:<br><br>:<br><br></div>
 <div id="bill">
-<div>Basic Service</div><br>
-<div>22-04-2007</div><br>
-<div>9:00am-11:00am</div><br>
+<div id = 'service'>Basic Service</div><br>
+<div id = 'date'>22-04-2007</div><br>
+<div id = session>9:00am-11:00am</div><br>
 <div>34534</div><br>
-<div>Rs.875</div><br>
+<div id = 'cost'>Rs.875</div><br>
 <div>Not Paid</div><br>
 <div>Offline</div><br>
 </div>
@@ -86,5 +86,12 @@
  </div>
  <div id="downright"><h5>Cycle your way to happiness</h5></div>
  <div id="downleft">Copyright @ 2024, Cyclerestore Services. All Rights Reserved.</div>
+ <script>
+   document.getElementById('service').innerText = localStorage.getItem('service');
+   document.getElementById('cost').innerText = localStorage.getItem('cost');
+   
+   document.getElementById('date').innerText = localStorage.getItem('selectedDay')+"-"+localStorage.getItem('selectedMonth')+"-"+localStorage.getItem('selectedYear');
+   document.getElementById('session').innerText = localStorage.getItem('session');
+ </script>
 </body>
 </html>
