@@ -1,132 +1,708 @@
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" initial-scale="1.0">
-<link rel="stylesheet" href="service2.css">
-</head>
-<body>
-<div id="font">
-<table id="header"><tr>
-<td><img style="width:110;height:100;" src="/Cycle Restore Logo1.png"></td>
-<td id="home"><a href=" ">Home</a></td>
-<td id="services"><a href=" ">Services</a></td>
-<td id="about us"><a href=" ">About Us</a></td>
-<td id="contact us"><a href=" ">Contact Us</a></td>
-</tr>
-</table>
-<br><br><br><br><br><br><br><br>
-<h1>Schedule Your Bicycle Service Today!</h1><br><br>
-<div id="table2">
-<table id="pages">
-<tr>
-<td align="right"><a href="index0.html"><img src="/Edit Property (3).png"></a></td>
-<td><a style="text-decoration:None;" href="index0.html">Basic Details</a></td>
-<td align="right"><a href="index1.html"><img  id="hover" src="/main serv.png"></a></td>
-<td><a style="text-decoration:None;" href="index1.html">Service</a></td>
-<td align="right"><a href="index2.html"><img src="/Delivery Time.png"></a></td>
-<td><a style="text-decoration:None;" href="index2.html">Date and time</a></td>
-<td align="right"><a href="index3.html"><img src="/Group 109.png"></a></td>
-<td><a style="text-decoration:None;" href="index3.html">Summary</a></td>
-</tr>
-</table>
-</div>
-<br><br><br>
-<div id="all">
-<h3>Select Service</h3>
-<div id="bsa">
-<div id="ji" onclick="window.location.href='index2.html';"><br>
-    <div id="bsa1">
-    <div id="ib"><img class="c image" src="/Supplier.png"><img class="c hover" src="/Supplier1.png"></div>
-        <div id="dt">
-            <p id="pj">Basic Service</p>
-            <div id="im">
-            <p style="margin-left:10px;">Safety check and inspection | Gear and brake<br><span style="margin-left:0px;"></span> adjustments|Chain lubrication | Tire inflation |Frame |<br><span style="margin-left:0px;"></span> wipe down | Basic cleaning <a href="show more.html">Show more...</a></p><br>
-            <div id="price">Price:  <button>Rs.875</button></div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="ji2" onclick="window.location.href='index2.html';"><br>
-    <div id="bsa1">
-    <div id="ib"><img class="c image" src="/Tools.png"><img class="c hover" src="/Tools1.png"></div>
-        <div id="dt">
-            <p id="pj">Standard Service</p>
-            <div id="im">
-            <p style="margin-left:10px;">Safety check and inspection | Gear and brake<br><span style="margin-left:0px;"></span> adjustments|Chain lubrication | Tire inflation |Frame |<br><span style="margin-left:0px;"></span>  wipe down | Basic cleaning <a href="show more.html">Show more...</a></p><br>
-            <div id="price">Price:  <button>Rs.1099</button></div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-<br><br><br>
-<div id="bsa2" style="margin-left:15px;">
-<div id="ji1" onclick="window.location.href='index2.html';"><br>
-  <div id="bsa1">
-  <div id="ib"><img class="c image" src="/Event Accepted.png"><img class="c hover" src="/Event Accepted1.png"></div>
-    <div id="dt">
-        <p id="pj">Advanced Service</p>
-        <div id="im">
-        <p style="margin-left:10px;">Safety check and inspection | Gear and brake<br><span style="margin-left:0px;"></span> adjustments|Chain lubrication | Tire inflation |Frame |<br><span style="margin-left:0px;"></span>  wipe down | Basic cleaning <a href="show more.html">Show more...</a></p><br>
-        <div id="price">Price:  <button>Rs.1399</button></div>
-        </div>
-    </div>
-  </div>
-</div>
-    
-</div><br><br><br>
-<div id="submit1">
-<button id="last"><a href="index0.html">Go back!</a></button>
-<button><a href="index2.html">Next<img style="vertical-align:text-bottom;width:30px;" src="/Service icon.png"></a></button><br><br>
-</div>
-</div>
-</div>
+ <html>
+    <head>
+<style>
 
-<div id="footer">
-    
-    <div id="icons">
-        <img src="/LinkedIn.png"><img src="/Instagram.png"><img src="/WhatsApp.png"><img src="/Facebook1.png"><img src="/Twitter.png">
+    #top,#topt,.top1,.top2,.top3
+    {
+        display:flex;
+    }
+    #all img
+    {
+        width: 100px;
+        height:60px;
+        margin-top:0px;
+        padding: 20px;
+    }
+    #topt
+    {
+        justify-content: space-between;
+        padding-bottom: 30px;
+        margin-top: 0px;
+    }
+    #all a
+    {
+        color: rgb(6, 5, 8);
+        /* font-weight: 600; */
+    }
+    form
+    {
+        margin-bottom: 60px;
+    }
+    .top2
+    {
+        margin-right: 30px;
+    }
+#all
+{
+    border: 1px solid white;
+   margin-left: 160px;
+    width: 1180px;
+    border-radius: 5px;
+}
+.top1,.top3
+{
+    margin-left: 30px;
+}
+   .top1,.top2,.top3
+    {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        border:1px solid rgba(98, 87, 87, 0.996);
+        width:545px;
+        height:240px;
+        border-radius: 8px;
+        background-color: white;
+}
+h4
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight:700;
+    color: rgb(250, 250, 254);
+    margin-left: 30px;
+}
+#d
+{
+    opacity: 0.5;
+    font-weight: 500;
+    color: rgb(12, 10, 10);
+    margin-top:30px;
+}
+#all button
+{
+    background-color: rgb(62, 30, 218);
+    color:white;
+    height:30px;
+    border-radius: 5px;
+    border: 1px solid  rgb(62, 30, 218);
+}
+#x
+{
+    width:60px;
+}
+#y,#z
+{
+    width:70px;
+}
+.top1 p
+{
+    opacity:0.6;
+    color: rgb(8, 7, 7);
+}
+.top2 p
+{
+    opacity:0.6;
+    color: rgb(8, 7, 7);
+}
+.top3 p
+{
+    opacity:0.6;
+    color: rgb(8, 7, 7);
+}
+#lo
+{
+    opacity: 0.8;
+    font-size: 24px;
+    color:rgb(21, 21, 21);
+}
+#amount
+{
+    margin-top: 40px;
+    margin-top: 0px;
+}
+#hu
+{
+    background-color: rgb(7, 7, 7);
+    position: absolute;
+    left:0px;
+    right:0px;
+    width:1520px;
+    margin-top: 200px;
+}
+ 
+.navlinks a{
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav {
+  background-color: rgb(9, 9, 9);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top:0px;
+  height:100px;
+  width:1520px;
+}
+.main-nav {
+  justify-content: space-between;
+  position:relative;
+  left: 20px;
+  right: 20px;
+  height: 60px;
+  padding-top: 10px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 100px;
+  height:90px;
+  margin-top: 20px;
+}
+
+.navlinks {
+  z-index: 4;
+}
+.navlinks ul {
+  justify-content: end;
+  gap: 70px;
+  margin-right: 40px;
+  list-style: none;
+  position: relative;
+}
+
+.navlink-options ul {
+  list-style: none;
+}
+.hover-links {
+  color: white;
+}
+.nav-toggle {
+  display: none;
+} 
+.image {
+  position: absolute;
+  width:1532px;
+  height: 200px; 
+  background-image: url("/refund.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; 
+  margin-left:-20px;
+  top: 100px;
+}
+ h2{
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+  font-family:Rubik;
+  margin-top: 70px;
+}
+h1
+{
+   text-align: center;
+    color:white;
+    margin-top: 0px;
+}
+
+#pages
+{   
+    width: 1180px;
+    margin-left: 160px;
+    margin-bottom: 40px;
+    background-color: white;
+    display:flex;
+    gap:50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#pages a 
+{
+    text-decoration:none;
+    color:black;
+    opacity:0.6;
+}
+#pages img 
+{
+    width:30px;
+    height:30px;
+    vertical-align:middle;
+}
+#pages 
+{
+    /* border:1px solid rgba(198, 196, 196, 0.777); */
+    border-radius: 5px;
+}
+#g,#h,#i,#j
+{
+    width: 20px;
+    height: 20px;
+    padding-top:20px;
+    padding-right:10px;
+    padding-left:20px;
+    padding-bottom:20px;
+}
+#r,#s,#t,#q a
+{
+    font-weight:700;
+}
+#q,#r,#s,#t
+{
+    margin-top: 5px;
+}
+#hover
+{
+box-shadow:0px 3px 5px rgba(0,0,0,0.6);
+}
+#submit1
+{
+margin-left:45px;
+margin-top:40px;
+margin-bottom:50px;
+display:flex;
+}
+#submit1 button 
+{
+    height:45px;
+    width:100px;
+    background-color:rgb(255, 250, 250);
+    border-radius:10px;
+}
+#submit1 a
+{
+    color:rgb(20, 19, 21);
+    text-decoration:none;
+    font-size:17px;
+}
+#bi
+{
+    margin-right: 900px;
+}
+footer {
+  background-color: #050505fb;
+  padding-block: 60px;
+  top:1500px;
+  height:500px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-container a{
+  text-decoration: none;
+  display: inline-block;
+}
+.container {
+  position: absolute;
+  width: 1470px;
+  margin-inline: auto;
+  overflow: hidden;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+}
+.footer-container {
+  align-items: flex-start;
+  gap: 130px;
+}
+
+.company-logo img {
+  width: 120px;
+  height:110px;
+  margin-bottom:20px;
+}
+
+.footer-companylog img{
+  margin-left: 20px;
+}
+.footer-para {
+  color: rgb(252, 247, 247);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.socialicons {
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+}
+
+.link-column {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.link-column2 {
+  min-width: 180px;
+}
+.footer-heading {
+  color: white;
+}
+
+.foot-links {
+  margin-left: 20px;
+}
+.link {
+  color: white;
+  margin-top: 20px;
+}
+
+
+.link-column {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.link-column2 {
+  min-width: 180px;
+}
+
+.footer-heading {
+  color: white;
+}
+
+.fas {
+  margin-top: 15px;
+}
+
+.location{
+  margin-top: -70px;
+  padding-right: 20px;
+}
+
+.hr-footer{
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+
+.sub-footer-collective {
+  display: flex;
+  gap: 470px;
+}
+.sub-footer-collective p
+{
+  margin-top:9px;
+  color:white;
+}
+.sub-footer {
+  color: white;
+  margin-top: 90px;
+ margin-left: 70px;
+}
+
+.copyright {
+  font-size: medium;
+}
+.contact
+{
+  margin-top: 20px;
+}
+#contact-img{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top:1640px;
+  margin-left: 1400px;
+  scroll-behavior: auto;
+}
+.hr-footer
+{
+  margin-top: 450px;
+}
+.div1
+{
+    cursor:pointer;
+}
+.add{
+background-color: red;
+ 
+}
+
+
+</style>
+    </head>
+    <body>
+
+         <nav>
+            <div class=" main-nav flex">
+                    <img class="company-logo" src="/Cycle Restore Logo1.png" alt="logo">        
+                <div class="navlinks" id="nav-links">
+                    <ul class="flex navlink-options">
+                        <li><a href="#" class="hover-links">Home</a></li>
+                        <li><a href="#" class="hover-links">Services</a></li>
+                        <li><a href="#" class="hover-links">About Us</a></li>
+                        <li><a href="#" class="hover-links">Contact Us</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="hover-links nav-toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+    <br><br><br><br><br>
+    <div class="image">
+        <div class="content">
+          
+          <h2>Doorstep Service  @  Home</h2>
+        </div>
+      </div>
+
+        <div id="hu"><br><br>
+            <h1>Schedule your Bike Service Today!</h1><br>
+            <div id="pages">
+                <div id="q">
+                    <img id="g" src="/bimg.png"><a href="">Basic Details</a>
+                </div>
+                <div id="r">
+                    <img id="h" src="/msimg.png"><a href="">Service</a>
+                </div>
+                <div id="s">
+                    <img id="i" src="/dimg.png"><a href="">Date and Time</a>
+                </div>
+                <div id="t">
+                    <img id="j" src="/suimg.png"><a href="">Summary</a>
+                </div>
+             </div>
+        <form id="all">
+            <h4>Select Service</h4>
+        <div id="topt">
+        <div class="top1 div1">
+            <img id="a" src="/Supplier.png">
+        <div id="">
+            <p id="lo">Basic Service</p>
+            <p>
+                Safety check and inspection | Gear and brake<br>adjustments|Chain lubrication | Tire inflation |Frame |  wipe down | Basic cleaning <a href="show more.html">Show more...</a></p><b></b>
+            </p>
+            <div id="amount">
+                <d id="d">Price : </d>
+                <button id="x">
+                    Rs.875
+                </button>
+            </div>
+        </div>
+        </div>
+
+        <div class="top2" class="div2">
+            <img id="b" src="/Tools.png">
+        <div id="">
+            <p id="lo">Advanced Service</p>
+            <p>
+                Safety check and inspection | Gear and brake<br>adjustments|Chain lubrication | Tire inflation |Frame |  wipe down | Basic cleaning <a href="show more.html">Show more...</a></p><b
+            </p>
+            <div id="amount">
+                <d id="d">Price : </d> 
+                <button id="y">
+                    Rs.1099
+                </button>
+            </div>
+        </div>
     </div>
+</div>
+        <div class="top3" div="div3">
+            <img id="c" src="/Event Accepted.png">
+        <div id="">
+            <p id="lo">Standard Service</p>
+            <p>
+                Safety check and inspection | Gear and brake<br>adjustments|Chain lubrication | Tire inflation |Frame |  wipe down | Basic cleaning <a href="show more.html">Show more...</a></p><b
+            </p>
+            <div id="amount">
+                <d id="d">Price : </d>
+                <button id="z">
+                    Rs.1399
+                </button>
+            </div>
+        </div>
+        </div><br><br>
+        <div id="submit1">
+            <button id="bi"><a href="index1.html">Go back!</a></button>
+            <button id="ser"><a href="index2.html">Next</a></button><br><br>
+        </div>
+        </form>
+        </div>
+
+        <footer>
+            <div class="container flex footer-container">
+                <div class="footer-left ">
+                    <a href="#" class="company-logo footer-companylog">
+                        <img src="/Cycle Restore Logo1.png" alt="company logo">
+                    </a>
+                    <p class="footer-para">
+                        Your Trusted Fitness Equipment Service Provider across 25+ Indian Cities. Installation, Maintenance,
+                        Repair Services for Residential and Commercial Clients. Committed to Customer Satisfaction.
+                    </p>
+    
+                    <div class="socialicons" style="cursor:pointer">
+    
+                        <i class="fab fa-google" style="color: white"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="white"
+                            class="bi bi-whatsapp" viewBox="0 0">
+                           <!--  <path
+                                d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                        </svg> -->
+                        </svg>
+    
+                        <i class="fab fa-instagram" style="color: white"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                           <!--  <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951">
+                            </path> -->
+                        </svg>
+    
+                        <i class="fab fa-twitter" style="color: white"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="bi bi-twitter" viewBox="0 0 16 16">
+                            <!-- <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                        </svg> -->
+                        </svg>
+                    </div>
+                </div>
     
     
-    <div id="allf">
-        <div id="top">
-        <img id="logo" src="/Cycle Restore Logo1.png">
-        <div id="para">
-            <p>Your Trusted Fitness Equipment Service Provider across 25+ Indian Cities. Installation, Maintenance, Repair Services for Residential and Commercial Clients. Committed to Customer Satisfaction.</p>
-        </div>
-        </div>
-        
-        <div id="paraa">
-          <h4>SERVING IN</h4>
-          <ul>
-            <li>Visakhapatnam</li>
-            <li>Delhi</li>
-            <li>Pune</li>
-            <li>Hyderabad</li>
-            <li>Chennai</li>
-            <li>Coimbatore</li>
-         </ul>
-        </div>
-         <div id="paraaa">
-            <h4>QUICK LINKS</h4>
-         <ul>
-              <li><a href="index7.html">Privacy Policy</a></li>
-              <li><a href="index5.html">Refund Policy</a></li>
-              <li><a href="index8.html">Shipping Policy</a></li>
-              <li><a href="index6.html">Terms and Conditions</a></li>
-         </ul>
-        </div>
-        
-        <div id="paraaaa">
-          <h4>CONTACT</h4>
-          <p><img src="/Phone.png">08062177481</p>
-          <p><img src="/Gmail Logo.png">info@example.com</p>
-          <p><img src="/mdi_address-marker.png">A-hub, Andhra University, Maddilapalem, Visakhapatnam, 530003, Andhra Pradesh, India</p>
-        </div>
-        
     
-  </div>
-  <div id="downright"><h5>Cycle your way to happiness</h5></div>
-  <div id="downleft">Copyright @ 2024, Cyclerestore Services. All Rights Reserved.</div>
-</body>
+                <div class="link-column flex  ">
+                    <h4 class="footer-heading">SERVING IN</h4>
+                    <div class="foot-links">
+                        <ul>
+                            <a href="#" class="link">
+                                <li>Visakhapatnam</li>
+                            </a>
+                            <a href="#" class="link">
+                                <li>Delhi</li>
+                            </a>
+                            <a href="#" class="link">
+                                <li>Hyderabad</li>
+                            </a>
+                            <a href="#" class="link">
+                                <li>Chennai</li>
+                            </a>
+                            <a href="#" class="link">
+                                <li>Coimbatore</li>
+                            </a>
+    
+                            <a href="#" class="link">
+                                <li>Pune</li>
+                            </a>
+    
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-column flex link-column2">
+                    <h4 class="footer-heading">QUICK LINKS</h4>
+                    <div class="foot-links">
+                        <ul>
+                            <a href="index7.html" class="link">
+                                <li>Privacy Policy</li>
+                            </a>
+                            <a href="index5.html" class="link">
+                                <li>Refund Policy</li>
+                            </a>
+                            <a href="index8.html" class="link">
+                                <li>Shipping Policy</li>
+                            </a>
+                            <a href="index6.html" class="link">
+                                <li>Terms and conditions</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-column footer-det">
+    
+                    <h4 class="footer-heading contact-footer-head">CONTACT</h4>
+                    <div class="contact-1 flex">
+                        <i class="fas fa-phone me-3" style="color:white"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="bi bi-telephone-fill" viewBox="0 0 16 16">                     
+                        </svg>
+                        <a href="#" class="link">08062177481</a>
+                    </div>
+    
+    
+                    <div class="contact-1 flex">
+                        <i class="fas fa-envelope me-3 " style="color:white"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="bi bi-envelope" viewBox="0 0 16 16">
+                        </svg>
+                        <a href="#" class="link">info@example.com</a>
+                    </div>
+    
+    
+                    <div class="contact-1 flex ">
+                        <i class=" fas fa-location-dot me-3 location" style="color:white"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                       </svg>
+                        <a href="#" class="link">A-hub, Andhra University, Maddilapalem, Visakhapatnam, 530003, Andhra
+                            Pradesh,India</a>
+                    </div>
+    
+    
+                </div>
+    
+            </div>
+    
+            <hr class="hr-footer">
+            <div class="sub-footer-collective container">
+                <div class="sub-footer sub-footer2">
+                    <p class="copyright">Copyright @ 2024, Cyclerestore Services. All Rights Reserved.</p>
+                </div>
+    
+                <div class="sub-footer1 sub-footer">
+                    <p class="copyright">Cycle your way to happiness</p>
+                </div>
+            </div>
+    
+        </footer>
+    
+        <div class="contact">
+            <a href="#">
+                <img id="contact-img" src="/whatsapp-removebg-preview.png" alt="">
+            </a>
+        </div>
+    <script src="https://kit.fontawesome.com/ffd3adf992.js" crossorigin="anonymous"></script>
+    
+        <script>
+            const toggleButton = document.getElementById('nav-toggle');
+            const navLinks = document.getElementById('nav-links');
+    
+            toggleButton.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            }
+    
+            )
+       
+            let div1 = document.querySelector(".top1");
+            let div2 = document.querySelector(".top2");
+            let div3 = document.querySelector(".top3");
+             div1.addEventListener("click", function() {        
+            localStorage.setItem('service','Basic service') 
+             div1.classList.add("add");
+             if (div2.classList.contains("add")) 
+             div2.classList.remove("add");
+             if (div3.classList.contains("add")) 
+             div3.classList.remove("add");
+             });
+             div2.addEventListener("click", function() {    
+                localStorage.setItem('service','Advanced Service')     
+             div2.classList.add("add");
+             if (div1.classList.contains("add")) 
+             div1.classList.remove("add");
+             if (div3.classList.contains("add")) 
+             div3.classList.remove("add");
+             });
+             div3.addEventListener("click", function() {  
+                localStorage.setItem('service','Standard Service')          
+             div3.classList.add("add");
+             if (div1.classList.contains("add")) 
+             div1.classList.remove("add"); 
+             if (div2.classList.contains("add")) 
+             div2.classList.remove("add");
+             });
+
+
+    
+        
+ 
+
+
+        </script>
+    </body>
 </html>
