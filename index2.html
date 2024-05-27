@@ -45,21 +45,21 @@
 
             <tr>
                 <td>      <p>Morning session</p>
-                           <p id="timings" onclick="window.location.href='index3.html';">9:00am-11:00am</p>
+                           <p id="timings" onclick="localStorage.setItem('session','(9:00am-11:00am)')">9:00am-11:00am</p>
                 </td>
                 <td>
                     <p>Afternoon session</p>
-                    <p id="timings" onclick="window.location.href='index3.html';">12:00pm-2:00pm</p>
+                    <p id="timings" onclick="localStorage.setItem('session','(12:00pm-2:00pm)')">12:00pm-2:00pm</p>
                 </td>
             </tr>
             <tr>
                 <td>
                     <p>Evening session</p>
-                    <p id="timings" onclick="window.location.href='index3.html';">3:00pm-5:00pm</p>
+                    <p id="timings" onclick="localStorage.setItem('session','(3:00pm-5:00pm)')">3:00pm-5:00pm</p>
                 </td>
                 <td>
                     <p>Night session</p>
-                    <p id="timings" onclick="window.location.href='index3.html';">6:00pm-8:00pm</p>
+                    <p id="timings" onclick="localStorage.setItem('session','(6:00pm-8:00pm)')">6:00pm-8:00pm</p>
                 </td>
             </tr>
 
@@ -67,13 +67,13 @@
 </div>
 
 <script>
+    // Global variables to track the currently displayed month and year
+    let currentYear = new Date().getFullYear();
+    let currentMonth = new Date().getMonth();
+    let selectedDate = null; // Variable to store the selected date
+    
+    const currentDate = new Date();
 
-// Global variables to track the currently displayed month and year
-let currentYear = new Date().getFullYear();
-let currentMonth = new Date().getMonth();
-const currentDate = new Date();
-
-   
     function renderCalendar(year, month) {
         const calendarBody = document.getElementById('calendarBody');
         const currentMonthYear = document.getElementById('currentMonthYear');
@@ -100,17 +100,21 @@ const currentDate = new Date();
     
             // Check if the day is a present day (not in the past)
             const currentDate = new Date();
-            if (new Date(year, month, day) >= currentDate) {
+            const dayDate = new Date(year, month, day);
+            if (dayDate >= currentDate) {
                 // dayElement.classList.add('present-day');
     
                 // Create dot container and dots for present days
                 const dotContainer = document.createElement('div');
                 dotContainer.classList.add('dot-container');
     
-              
-    
                 // Append dot container to the day element
                 dayElement.appendChild(dotContainer);
+
+                // Add click event listener to select the date
+                dayElement.addEventListener('click', () => {
+                    selectDate(dayDate);
+                });
             } else {
                 // Day is in the past
                 dayElement.classList.add('past-day');
@@ -120,42 +124,70 @@ const currentDate = new Date();
             calendarBody.appendChild(dayElement);
         }
     }
-    
 
-// Function to navigate to the previous month
-function goToPreviousMonth() {
-    if (currentMonth === 0) {
-        currentMonth = 11;
-        currentYear--;
-    } else {
-        currentMonth--;
+    // Function to select a date
+    function selectDate(date) {
+        // Clear previous selection
+        const previousSelected = document.querySelector('.selected-day');
+        if (previousSelected) {
+            previousSelected.classList.remove('selected-day');
+        }
+
+        // Find the selected day element and highlight it
+        const dayElements = document.querySelectorAll('.calendarday');
+        dayElements.forEach(dayElement => {
+            const day = parseInt(dayElement.textContent, 10);
+            if (date.getDate() === day && date.getMonth() === currentMonth && date.getFullYear() === currentYear) {
+                dayElement.classList.add('selected-day');
+            }
+        });
+
+            // Store the selected date components in localStorage
+            localStorage.setItem('selectedDay', date.getDate());
+            localStorage.setItem('selectedMonth', monthNames[date.getMonth()]); // Months are 0-based
+            localStorage.setItem('selectedYear', date.getFullYear());
+            localStorage.setItem('selectedWeek', getWeekNumber(date));
+        
     }
-    renderCalendar(currentYear, currentMonth);
-}
-
-// Function to navigate to the next month
-function goToNextMonth() {
-    if (currentMonth === 11) {
-        currentMonth = 0;
-        currentYear++;
-    } else {
-        currentMonth++;
+    function getWeekNumber(date) {
+            const startOfYear = new Date(date.getFullYear(), 0, 1);
+            const days = Math.floor((date - startOfYear) / (24 * 60 * 60 * 1000));
+            return Math.ceil((days + startOfYear.getDay() + 1) / 7);
     }
+    // Function to navigate to the previous month
+    function goToPreviousMonth() {
+        if (currentMonth === 0) {
+            currentMonth = 11;
+            currentYear--;
+        } else {
+            currentMonth--;
+        }
+        renderCalendar(currentYear, currentMonth);
+    }
+
+    // Function to navigate to the next month
+    function goToNextMonth() {
+        if (currentMonth === 11) {
+            currentMonth = 0;
+            currentYear++;
+        } else {
+            currentMonth++;
+        }
+        renderCalendar(currentYear, currentMonth);
+    }
+
+    // Array of month names for display purposes
+    const monthNames = [
+        'January', 'February', 'March', 'April', 'May', 'June',
+        'July', 'August', 'September', 'October', 'November', 'December'
+    ];
+
+    // Initial rendering of the calendar
     renderCalendar(currentYear, currentMonth);
-}
 
-// Array of month names for display purposes
-const monthNames = [
-    'January', 'February', 'March', 'April', 'May', 'June',
-    'July', 'August', 'September', 'October', 'November', 'December'
-];
-
-// Initial rendering of the calendar
-renderCalendar(currentYear, currentMonth);
-
-// Event listeners for navigation buttons
-document.getElementById('prevMonth').addEventListener('click', goToPreviousMonth);
-document.getElementById('nextMonth').addEventListener('click', goToNextMonth);
+    // Event listeners for navigation buttons
+    document.getElementById('prevMonth').addEventListener('click', goToPreviousMonth);
+    document.getElementById('nextMonth').addEventListener('click', goToNextMonth);
 </script>
 <div id="submit1">
 <button id="bi"><a href="index1.html">Go back!</a></button>
