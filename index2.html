@@ -30,7 +30,7 @@
 <h2>Date & Time</h2>
 <br><br>
 <div id="alldt">
-<input type="text" value="" placeholder="Date" id="input"></input><br><br>
+<input type="text" value="" class = "date" placeholder="Date" id="input"></input><br><br>
 <div class="bookingdate">
 <div class="calendar-container">
                     <div class="calendar-header">
@@ -146,6 +146,9 @@
             localStorage.setItem('selectedDay', date.getDate());
             localStorage.setItem('selectedMonth', monthNames[date.getMonth()]); // Months are 0-based
             localStorage.setItem('selectedYear', date.getFullYear());
+            var date = date.getDate() + "-" + monthNames[date.getMonth()] + "-" +  date.getFullYear();
+            var d = document.querySelector(".date");
+            d.value =  date;
             localStorage.setItem('selectedWeek', getWeekNumber(date));
         
     }
