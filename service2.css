@@ -347,7 +347,7 @@ li
 /********************************************************************************************************************************/
 
 
-@media (min-width:769px) and (max-width:1200px)
+@media (max-width:1200px)
 {   #footer
     {
       width: 1480px;
@@ -364,72 +364,21 @@ li
     }
     h1
     {
-       margin-left:200px;
-       margin-top:40px;
-       width:1100px;
-       font-size: 58px;
+       margin-left:440px;
+       margin-top:10px;
+       width:600px;
     }
-   
-    #ji,#ji1,#ji2
+    #pages
     {
-        width:700px;
-        height:350px;
-    }
+        width:550px;
+        margin-left:465px;
+        margin-top:0px;
+    } 
     #all
     {
-        margin-left: 5px;
+        margin-left: 240px;
         margin-bottom: 10px;
-        width:1450px;
-    }
-    #ib
-    {
-        margin-top:20px;
-    }
-    #ib img
-    {
-        width: 70px;
-        height: 70px;
-    }
-    #pj
-    {
-        font-size: xx-large;
-    }
-    #price
-    {
-        font-size: larger;
-    }
-    #dt
-    {
-        margin-left: 20px;
-        width:800px;
-        font-size:x-large;
-    }   
-    #last
-    {
-        margin-right: 1150px;
-    } 
-    #submit1
-    {
-        width:1350px;
-    }
-    #pages img
-    {
-      width: 40px;
-      height:40px;
-    }
-     #pages
-     {
-       width: 950px;
-       margin-left: 270px;
-       height:60px;
-       font-size: xx-large;
-       margin-bottom: 30px;
-       border: 1px solid rgb(15, 14, 14);
-     }
-     h3
-     {
-        font-size: xx-large;
-     }
+    }    
 }
 
 
@@ -455,8 +404,7 @@ li
     {
        margin-left:440px;
        margin-top:10px;
-       width:1100px;
-       font-size: 58px;
+       width:600px;
     }
     #pages
     {
@@ -475,7 +423,7 @@ li
 /********************************************************************************************************************************/
 
 
-@media (min-width:601px) and (max-width:768px)
+@media (max-width:768px)
 {   #footer
     {
       width: 1480px;
@@ -492,73 +440,22 @@ li
     }
     h1
     {
-       margin-left:200px;
+       margin-left:440px;
        margin-top:40px;
-       width:1100px;
-       font-size: 58px;
-       margin-bottom: 20px;
+       width:600px;
     }
-   
-    #ji,#ji1,#ji2
+    #pages
     {
-        width:700px;
-        height:350px;
+        width:550px;
+        margin-left:455px;
+        margin-top:0px;
+        height: 50px;
     }
     #all
     {
-        margin-left: 5px;
+        margin-left: 240px;
         margin-bottom: 10px;
-        width:1450px;
-    }
-    #ib
-    {
-        margin-top:20px;
-    }
-    #ib img
-    {
-        width: 70px;
-        height: 70px;
-    }
-    #pj
-    {
-        font-size: xx-large;
-    }
-    #price
-    {
-        font-size: larger;
-    }
-    #dt
-    {
-        margin-left: 20px;
-        width:800px;
-        font-size:x-large;
-    }   
-    #last
-    {
-        margin-right: 1150px;
-    } 
-    #submit1
-    {
-        width:1350px;
-    }
-    #pages img
-    {
-      width: 40px;
-      height:40px;
-    }
-     #pages
-     {
-       width: 950px;
-       margin-left: 270px;
-       height:60px;
-       font-size: xx-large;
-       margin-bottom: 30px;
-       border: 1px solid rgb(15, 14, 14);
-     }
-     h3
-     {
-        font-size: xx-large;
-     }
+    }    
 }
 
 
@@ -585,8 +482,6 @@ li
     padding-left: 95px;
     padding-top: 25px;
     margin-left: 350px;
-    width:1100px;
-    font-size: 58px;
    }
    #table2
    {
@@ -678,11 +573,11 @@ li
     margin-left: 970px;
   }
   h1{
-    margin-left: 50px;
-    margin-bottom:45px;
-    margin-top: 40px;
-    width:1100px;
-    font-size: 58px;
+    margin-left: 180px;
+    width:850px;
+    margin-bottom:60px;
+    margin-top: 100px;
+    font-size: 44px;
   }
     #home a,#services a,#about us a,#contact us a
     {
@@ -693,19 +588,12 @@ li
    {
     padding-left: 90px;
    }
-   #pages img
-  {
-    width: 40px;
-    height:40px;
-  }
    #pages
    {
-     width: 950px;
-     margin-left: 120px;
+     width: 750px;
+     margin-left: 230px;
      height:60px;
-     font-size: xx-large;
-     margin-bottom: 0px;
-     border: 1px solid rgb(15, 14, 14);
+     font-size: x-large;
    }
     #bsa,#bsa2
     {
@@ -717,66 +605,34 @@ li
     #ji
     {
         margin-bottom: 0px;
-        width: 800px;
-        height:350px;
     }
     #ji1
     {
-        margin-left: 85px;
-        width: 800px;
-        height:350px;
+        margin-left: 105px;
     }
     #ib
     {
         margin-top:20px;
     }
-    #ib img
-    {
-        width: 70px;
-        height: 70px;
-    }
-    #pj
-    {
-        font-size: xx-large;
-    }
     #ji2
     {
         margin-top:55px;
-        width: 800px;
-        height:350px;
-    }
-    #price
-    {
-        font-size: larger;
-    }
-    #dt
-    {
-        margin-left: 20px;
-        width:800px;
-        font-size:x-large;
     }
     #all
     {
-        width:1000px;
-        margin-left: 180px;
+        width:700px;
+        margin-left: 340px;
         margin-top: 50px;
         margin-bottom: 60px;
     }
     h3
     {
-        margin-left:100px;
-        font-size: xx-large;
+        margin-left:270px;
     }
    #last
    {
-    margin-right:480px;
-    margin-left: 80px;
+    margin-right:380px;
    }
-    #im button 
-    {
-        width:100px;
-        height:50px;
-    }
     
     
 }
@@ -821,11 +677,11 @@ li
     margin-left: 970px;
   }
   h1{
-    margin-left: 55px;
-    margin-bottom:45px;
-    margin-top: 40px;
-    width:1100px;
-    font-size: 58px;
+    margin-left: 180px;
+    width:850px;
+    margin-bottom:60px;
+    margin-top: 100px;
+    font-size: 44px;
   }
     #home a,#services a,#about us a,#contact us a
     {
@@ -836,19 +692,12 @@ li
    {
     padding-left: 90px;
    }
-   #pages img
-  {
-    width: 40px;
-    height:40px;
-  }
    #pages
    {
-     width: 950px;
-     margin-left: 120px;
+     width: 750px;
+     margin-left: 230px;
      height:60px;
-     font-size: xx-large;
-     margin-bottom: 0px;
-     border: 1px solid rgb(15, 14, 14);
+     font-size: x-large;
    }
     #bsa,#bsa2
     {
@@ -860,66 +709,35 @@ li
     #ji
     {
         margin-bottom: 0px;
-        width: 800px;
-        height:350px;
     }
     #ji1
     {
-        margin-left: 85px;
-        width: 800px;
-        height:350px;
+        margin-left: 105px;
     }
     #ib
     {
         margin-top:20px;
     }
-    #ib img
-    {
-        width: 70px;
-        height: 70px;
-    }
-    #pj
-    {
-        font-size: xx-large;
-    }
     #ji2
     {
         margin-top:55px;
-        width: 800px;
-        height:350px;
-    }
-    #price
-    {
-        font-size: larger;
-    }
-    #dt
-    {
-        margin-left: 20px;
-        width:800px;
-        font-size:x-large;
     }
     #all
     {
-        width:1000px;
-        margin-left: 180px;
+        width:700px;
+        margin-left: 340px;
         margin-top: 50px;
         margin-bottom: 60px;
     }
     h3
     {
-        margin-left:100px;
-        font-size: xx-large;
+        margin-left:270px;
     }
    #last
    {
-    margin-right:480px;
-    margin-left: 80px;
+    margin-right:380px;
    }
-    #im button 
-    {
-        width:100px;
-        height:50px;
-    }
+    
     
 }
 
@@ -964,10 +782,10 @@ li
     margin-left: 970px;
   }
   h1{
-    margin-left: 20px;
+    margin-left: 140px;
+    width:850px;
     margin-bottom:60px;
     margin-top: 100px;
-    width:1100px;
     font-size: 44px;
   }
     #home a,#services a,#about us a,#contact us a
