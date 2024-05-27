@@ -1,0 +1,971 @@
+
+#hy
+{
+margin-left:580px;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:15px;
+padding-right:15px;
+margin-right:15px;
+}
+#font p
+{
+    text-align: center;
+}
+#summary
+{
+margin-left:620px;
+display:flex;
+}
+#submit
+{
+margin-left:700px;
+text-decoration:none;
+color:white;
+}
+#font
+{
+font-family:Rubik;
+}
+input[type=button]
+{
+background-color:black;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
+margin-right:150px;
+}
+button
+{
+background-color:black;
+border-radius:10px;
+margin-right:40px;
+height:40px;
+width:120px;
+}
+img
+{
+width:20px;
+height:20px;
+}
+#pages a
+{
+color:black;
+}
+#pages a:hover
+{
+color:red;
+}
+hr
+{
+width:520px;
+margin-left:545px;
+}
+#cust
+{
+    display:flex;
+    margin-left: 680px;
+}
+img#hover
+{
+box-shadow:0px 3px 5px rgba(0,0,0,0.6);
+}
+#money
+{
+    margin-left:155px;
+}
+#ut
+{
+width:200px;
+height:150px;
+margin-left:650px;
+}
+#serv
+{
+margin-right:65px;
+text-align:left;
+}
+#dat
+{
+margin-left:37px;
+text-align:left;
+}
+#sad
+{
+display:flex;
+margin-left:620px;
+}
+#header
+{
+    background-color:#000000;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 7%;
+}
+#header img
+{
+    margin-right:550px;
+    text-align: left;
+}
+#header a
+{
+    text-align: center;
+}
+
+#header a
+{
+    color:#FFFFFF;
+    text-decoration:None;
+}
+
+#pages
+{
+    border:2px solid black;
+    width:70%;
+    height:6%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+}
+
+h1
+{
+   text-align: center;
+   margin-top:50px;
+}
+#header img
+{
+    width:110px;
+    height:100px;
+}
+#submit a
+{
+    text-align:right;
+    color:white;
+    text-decoration:none;
+}
+
+#home a
+{
+    margin-left:25px;
+}
+#services a
+{
+    margin-left:25px;
+}
+#about us a
+{
+    margin-left:20px;
+    margin-right:15px;
+}
+#contact us a
+{
+    margin-right:100px;
+}
+#footer
+{
+    width:100%;
+    height:640px;
+    background-color: black;
+    font-family:Rubik;
+    margin-top: 50px;
+    left: 0px;
+    position:absolute;
+    scroll-behavior: auto; 
+}
+#icons img
+{
+    width:30px;
+    height:30px;
+   margin-right:20px;
+   margin-top: 80px;
+}
+#icons
+{
+    margin-left:1200px;
+    width:280px;  
+    height:40px;
+}
+#logo
+{
+    width:100px;
+    height:100px;
+    margin-top:0px;
+    margin-left: 0px;
+}
+#all
+{
+    width:1350px;
+    color:white;
+    display:flex;
+    height:300px;
+    margin-left:80px;
+    justify-content: space-between;
+    margin-top:140px;
+}
+ul
+{
+    color:white;
+}
+#para
+{
+    width:310px;
+    height:150px;
+    margin-top:5px;
+}
+#para,#paraa,#paraaaa,#paraaa
+{
+    text-align: left;
+}
+ul,a
+{
+    color:white;
+}
+h4
+{
+    margin-left:22px;
+}
+li
+{
+    padding-bottom:17px;
+    text-decoration: underline;
+}
+#paraaaa img
+{
+     width:20px;
+     height:20px;
+     margin-right:5px;
+     vertical-align:text-bottom;
+}
+#paraaaa
+{
+    width:345px;
+    height:200px;
+}
+#paraaaa h4
+{
+    margin-left: 0px;
+}
+#downleft
+{
+    color:white;
+    text-align: left;
+    margin-left:20px;
+}
+#downright
+{
+ margin-right: 40px;
+    color: white;
+    text-align:right;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (max-width:1200px)
+{ #footer
+    {
+      width: 1480px;
+    }
+    #header img
+    {
+        margin-left:30px;
+        text-align:left;
+        margin-right:210px;
+    }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+    #ut
+    {
+        margin-left:500px;
+    }
+    #font p
+    {
+        width:300px;
+        margin-left:460px;
+    }
+    #cust
+    {
+        margin-left:540px;
+    }
+    #sad
+    {
+        margin-left:440px;
+        margin-right: 100px;
+        width:535px;
+    }
+    #serv
+    {
+        width:150px;
+    }
+    #dat
+    {
+        width:300px;
+    }
+    hr
+    {
+        margin-left:400px;
+    }
+    #summary
+    {
+        margin-left:440px;
+    }
+    #money
+    {
+        margin-left: 185px;
+    }
+   #submit
+   {
+    width:320px;
+    margin-left: 540px;
+   }
+   h1 
+   {
+    margin-left: 260px;
+   }
+   #pages
+   {
+    margin-left: 300px;
+    margin-bottom: 10px;
+   }
+   #font
+   {
+    margin-left:150px;
+   }
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (max-width:999px)
+{ #footer
+    {
+      width: 1468px;
+    }
+    #header img
+    {
+        margin-left:30px;
+        text-align:left;
+        margin-right:210px;
+    }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+    #ut
+    {
+        margin-left:500px;
+    }
+    #font p
+    {
+        width:300px;
+        margin-left:460px;
+    }
+    #cust
+    {
+        margin-left:540px;
+    }
+    #sad
+    {
+        margin-left:440px;
+        margin-right: 100px;
+        width:535px;
+    }
+    #serv
+    {
+        width:150px;
+    }
+    #dat
+    {
+        width:300px;
+    }
+    hr
+    {
+        margin-left:400px;
+    }
+    #summary
+    {
+        margin-left:440px;
+    }
+    #money
+    {
+        margin-left: 185px;
+    }
+   #submit
+   {
+    width:320px;
+    margin-left: 540px;
+   }
+   h1 
+   {
+    margin-left: 350px;
+   }
+   #pages
+   {
+    margin-left: 300px;
+    margin-bottom: 10px;
+   }
+   #font
+   {
+    margin-left:150px;
+   }
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (max-width:768px)
+{ #footer
+    {
+      width: 1480px;
+    }
+    #header img
+    {
+        margin-left:30px;
+        text-align:left;
+        margin-right:210px;
+    }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+    #ut
+    {
+        margin-left:500px;
+    }
+    #font p
+    {
+        width:300px;
+        margin-left:400px;
+    }
+    #cust
+    {
+        margin-left:510px;
+    }
+    #sad
+    {
+        margin-left:440px;
+        margin-right: 100px;
+        width:535px;
+    }
+    #serv
+    {
+        width:150px;
+    }
+    #dat
+    {
+        width:300px;
+    }
+    hr
+    {
+        margin-left:400px;
+    }
+    #summary
+    {
+        margin-left:440px;
+    }
+    #money
+    {
+        margin-left: 175px;
+    }
+   #submit
+   {
+    width:320px;
+    margin-left: 540px;
+   }
+   h1 
+   {
+    margin-left: 390px;
+    width:400px;
+   }
+   #pages
+   {
+    margin-left: 310px;
+    margin-bottom: 10px;
+    width:550px;
+   }
+   #font
+   {
+    margin-left:150px;
+    font-size: larger;
+   }
+   #body p
+   {
+    width:400px;
+   }
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (max-width:600px)
+{ #footer
+    {
+      width: 1468px;
+    }
+    #header img
+    {
+        margin-left:30px;
+        text-align:left;
+        margin-right:210px;
+    }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+    #ut
+    {
+        margin-left:500px;
+    }
+    #font p
+    {
+        width:300px;
+        margin-left:400px;
+    }
+    #cust
+    {
+        margin-left:510px;
+    }
+    #sad
+    {
+        margin-left:440px;
+        margin-right: 100px;
+        width:535px;
+    }
+    #serv
+    {
+        width:150px;
+    }
+    #dat
+    {
+        width:300px;
+    }
+    hr
+    {
+        margin-left:400px;
+    }
+    #summary
+    {
+        margin-left:440px;
+    }
+    #money
+    {
+        margin-left: 185px;
+    }
+   #submit
+   {
+    width:320px;
+    margin-left: 540px;
+   }
+   h1 
+   {
+    margin-left: 390px;
+    width:400px;
+   }
+   #pages
+   {
+    margin-left: 310px;
+    margin-bottom: 10px;
+    width:550px;
+   }
+   #font
+   {
+    margin-left:150px;
+    font-size: larger;
+   }
+   #body p
+   {
+    width:400px;
+   }
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (min-width:377px) and (max-width:426px)
+{ 
+    #footer
+    {
+      width: 1350px;
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+    #header img
+    {
+        margin-left:30px;
+        text-align:left;
+        margin-right:210px;
+    }
+    #header
+  {
+    height:5%;
+    width:100%;
+  }
+  #top,#paraa,#paraaa,#paraaaa
+  { 
+    margin-left:2px;
+    margin-right: 2px;
+  }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+    #ut
+    {
+        margin-left:290px;
+        width:500px;
+        height: 400px;
+        margin-top:60px;
+        margin-bottom:30px;
+    }
+    #font p
+    {
+        width:700px;
+        margin-left: 190px;
+        font-size: 30px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    #cust
+    {
+        margin-left:410px;
+        font-size: 28px;
+        margin-bottom: 60px;
+    }
+    #sad
+    {
+        margin-left:280px;
+        margin-right: 100px;
+        width:800px;
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    #serv
+    {
+        width:200px;
+    }
+    #dat
+    {
+        width:450px;
+    }
+    hr
+    {
+        margin-left:280px;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    #summary
+    {
+        margin-left:280px;
+        font-size: 28px;
+    }
+    #money
+    {
+        margin-left: 200px;
+    }
+   #submit
+   {
+    margin-left: 400px;
+    margin-top: 60px;
+   }
+   #submit button
+    {
+        width:150px;
+        height:70px;
+    }  
+     #downright
+   {
+     margin-right: 16px;
+   }
+   #icons
+   {
+     margin-left: 970px;
+   }
+   h1{
+     margin-left: 120px;
+     width:850px;
+     margin-bottom:80px;
+     margin-top: 150px;
+     font-size: 68px;
+   }
+   
+   #pages
+   {
+     width: 750px;
+     margin-left: 170px;
+     height:60px;
+     font-size: x-large;
+   }
+   #all
+   {
+     margin-left: 0px;
+    justify-content:space-evenly;
+   }
+  
+}
+
+
+/********************************************************************************************************************************/
+
+
+
+@media (min-width:321px) and (max-width:376px)
+{ 
+    #footer
+    {
+      width: 1350px;
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+    #header img
+    {
+        margin-left:30px;
+        text-align:left;
+        margin-right:210px;
+    }
+    #header
+  {
+    height:5%;
+    width:100%;
+  }
+  #top,#paraa,#paraaa,#paraaaa
+  { 
+    margin-left:2px;
+    margin-right: 2px;
+  }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+    #ut
+    {
+        margin-left:290px;
+        width:500px;
+        height: 400px;
+        margin-top:60px;
+        margin-bottom:30px;
+    }
+    #font p
+    {
+        width:700px;
+        margin-left: 190px;
+        font-size: 30px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    #cust
+    {
+        margin-left:410px;
+        font-size: 28px;
+        margin-bottom: 60px;
+    }
+    #sad
+    {
+        margin-left:280px;
+        margin-right: 100px;
+        width:800px;
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    #serv
+    {
+        width:200px;
+    }
+    #dat
+    {
+        width:450px;
+    }
+    hr
+    {
+        margin-left:280px;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    #summary
+    {
+        margin-left:280px;
+        font-size: 28px;
+    }
+    #money
+    {
+        margin-left: 200px;
+    }
+   #submit
+   {
+    margin-left: 400px;
+    margin-top: 60px;
+   }
+   #submit button
+    {
+        width:150px;
+        height:70px;
+    }  
+     #downright
+   {
+     margin-right: 16px;
+   }
+   #icons
+   {
+     margin-left: 970px;
+   }
+   h1{
+     margin-left: 120px;
+     width:850px;
+     margin-bottom:80px;
+     margin-top: 150px;
+     font-size: 68px;
+   }
+   
+   #pages
+   {
+     width: 750px;
+     margin-left: 170px;
+     height:60px;
+     font-size: x-large;
+   }
+   #all
+   {
+     margin-left: 0px;
+    justify-content:space-evenly;
+   }
+  
+}
+
+
+@media (max-width:320px)
+{  
+    #footer
+    {
+      width: 1350px;
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+    #header img
+    {
+        margin-left:30px;
+        text-align:left;
+        margin-right:210px;
+    }
+    #header
+  {
+    height:5%;
+    width:100%;
+  }
+  #top,#paraa,#paraaa,#paraaaa
+  { 
+    margin-left:2px;
+    margin-right: 2px;
+  }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+    #ut
+    {
+        margin-left:250px;
+        width:500px;
+        height: 400px;
+        margin-top:60px;
+        margin-bottom:30px;
+    }
+    #font p
+    {
+        width:700px;
+        margin-left: 150px;
+        font-size: 30px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    #cust
+    {
+        margin-left:370px;
+        font-size: 28px;
+        margin-bottom: 60px;
+    }
+    #sad
+    {
+        margin-left:280px;
+        margin-right: 100px;
+        width:800px;
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    #serv
+    {
+        width:200px;
+    }
+    #dat
+    {
+        width:450px;
+    }
+    hr
+    {
+        margin-left:280px;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    #summary
+    {
+        margin-left:280px;
+        font-size: 28px;
+    }
+    #money
+    {
+        margin-left: 200px;
+    }
+   #submit
+   {
+    margin-left: 400px;
+    margin-top: 60px;
+   }
+   #submit button
+    {
+        width:150px;
+        height:70px;
+    }  
+     #downright
+   {
+     margin-right: 16px;
+   }
+   #icons
+   {
+     margin-left: 970px;
+   }
+   h1{
+     margin-left: 80px;
+     width:850px;
+     margin-bottom:80px;
+     margin-top: 150px;
+     font-size: 68px;
+   }
+   
+   #pages
+   {
+     width: 750px;
+     margin-left: 130px;
+     height:60px;
+     font-size: x-large;
+   }
+   #all
+   {
+     margin-left: 0px;
+    justify-content:space-evenly;
+   }
+  
+   
+}
+
+
+

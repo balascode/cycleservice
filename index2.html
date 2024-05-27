@@ -1,0 +1,216 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+<link rel="stylesheet" href="dat.css">
+</head>
+<body>
+<div id="font">
+<table id="header"><tr>
+<td><img src="/Cycle Restore Logo1.png"></td>
+<td><a href=" ">Home</a></td>
+<td><a href=" ">Services</a></td>
+<td><a href=" ">About Us</a></td>
+<td><a href=" ">Contact Us</a></td>
+</tr>
+</table>b
+<br><br><br><br><br><br><br><br>
+<h1>Schedule Your Bicycle Service Today!</h1><br><br>
+<table id="pages">
+<tr>
+<td align="right"><a href="index0.html"><img src="/Edit Property (3).png"></a></td>
+<td><a style="text-decoration:None;" href="index0.html">Basic Details</a></td>
+<td align="right"><a href="index1.html"><img src="/Tools.png"></a></td>
+<td><a style="text-decoration:None;" href="index1.html">Service</a></td>
+<td align="right"><a href="index2.html"><img id="hover" src="/main dat.png"></a></td>
+<td><a style="text-decoration:None;" href="index2.html">Date and time</a></td>
+<td align="right"><a href="index3.html"><img src="/Group 109.png"></a></td>
+<td><a style="text-decoration:None;" href="index3.html">Summary</a></td>
+</tr>
+</table><br>
+<h2>Date & Time</h2>
+<br><br>
+<div id="alldt">
+<input type="text" value="" placeholder="Date" id="input"></input><br><br>
+<div class="bookingdate">
+<div class="calendar-container">
+                    <div class="calendar-header">
+                        <button id="prevMonth" class="lgt">&lt;</button>
+                        <div id="currentMonthYear"></div>
+                        <button id="nextMonth" class="lgt">&gt;</button>
+                    </div>
+                    <div id="calendarBody" class="calendar-body">
+                </div>   
+    </div>
+<table id="time">
+
+            <tr>
+                <td>      <p>Morning session</p>
+                           <p id="timings" onclick="window.location.href='index3.html';">9:00am-11:00am</p>
+                </td>
+                <td>
+                    <p>Afternoon session</p>
+                    <p id="timings" onclick="window.location.href='index3.html';">12:00pm-2:00pm</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Evening session</p>
+                    <p id="timings" onclick="window.location.href='index3.html';">3:00pm-5:00pm</p>
+                </td>
+                <td>
+                    <p>Night session</p>
+                    <p id="timings" onclick="window.location.href='index3.html';">6:00pm-8:00pm</p>
+                </td>
+            </tr>
+
+        </table>
+</div>
+
+<script>
+
+// Global variables to track the currently displayed month and year
+let currentYear = new Date().getFullYear();
+let currentMonth = new Date().getMonth();
+const currentDate = new Date();
+
+   
+    function renderCalendar(year, month) {
+        const calendarBody = document.getElementById('calendarBody');
+        const currentMonthYear = document.getElementById('currentMonthYear');
+        const daysInMonth = new Date(year, month + 1, 0).getDate();
+        const firstDayOfMonth = new Date(year, month, 1).getDay();
+    
+        // Clear previous calendar
+        calendarBody.innerHTML = '';
+    
+        // Set the current month and year in the header
+        currentMonthYear.textContent = `${monthNames[month]} ${year}`;
+    
+        // Populate the grid with days
+        for (let i = 0; i < firstDayOfMonth; i++) {
+            const placeholderDay = document.createElement('div');
+            placeholderDay.classList.add('calendarday');
+            calendarBody.appendChild(placeholderDay);
+        }
+    
+        for (let day = 1; day <= daysInMonth; day++) {
+            const dayElement = document.createElement('div');
+            dayElement.classList.add('calendarday');
+            dayElement.textContent = day;
+    
+            // Check if the day is a present day (not in the past)
+            const currentDate = new Date();
+            if (new Date(year, month, day) >= currentDate) {
+                // dayElement.classList.add('present-day');
+    
+                // Create dot container and dots for present days
+                const dotContainer = document.createElement('div');
+                dotContainer.classList.add('dot-container');
+    
+              
+    
+                // Append dot container to the day element
+                dayElement.appendChild(dotContainer);
+            } else {
+                // Day is in the past
+                dayElement.classList.add('past-day');
+            }
+    
+            // Append day element to the calendar body
+            calendarBody.appendChild(dayElement);
+        }
+    }
+    
+
+// Function to navigate to the previous month
+function goToPreviousMonth() {
+    if (currentMonth === 0) {
+        currentMonth = 11;
+        currentYear--;
+    } else {
+        currentMonth--;
+    }
+    renderCalendar(currentYear, currentMonth);
+}
+
+// Function to navigate to the next month
+function goToNextMonth() {
+    if (currentMonth === 11) {
+        currentMonth = 0;
+        currentYear++;
+    } else {
+        currentMonth++;
+    }
+    renderCalendar(currentYear, currentMonth);
+}
+
+// Array of month names for display purposes
+const monthNames = [
+    'January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December'
+];
+
+// Initial rendering of the calendar
+renderCalendar(currentYear, currentMonth);
+
+// Event listeners for navigation buttons
+document.getElementById('prevMonth').addEventListener('click', goToPreviousMonth);
+document.getElementById('nextMonth').addEventListener('click', goToNextMonth);
+</script>
+<div id="submit1">
+<button id="bi"><a href="index1.html">Go back!</a></button>
+<button><a style="margin-left:7px;" href="index3.html">Next<img style="vertical-align:sub;width:32px;" src="/Service icon.png"></a></button><br><br>
+</div>
+</div>
+</div>
+
+<div id="footer">
+    
+    <div id="icons">
+        <img src="/LinkedIn.png"><img src="/Instagram.png"><img src="/WhatsApp.png"><img src="/Facebook1.png"><img src="/Twitter.png">
+    </div>
+    
+    
+    <div id="all">
+        <div id="top">
+        <img id="logo" src="/Cycle Restore Logo1.png">
+        <div id="para">
+            <p>Your Trusted Fitness Equipment Service Provider across 25+ Indian Cities. Installation, Maintenance, Repair Services for Residential and Commercial Clients. Committed to Customer Satisfaction.</p>
+        </div>
+        </div>
+        
+        <div id="paraa">
+          <h4>SERVING IN</h4>
+          <ul>
+            <li>Visakhapatnam</li>
+            <li>Delhi</li>
+            <li>Pune</li>
+            <li>Hyderabad</li>
+            <li>Chennai</li>
+            <li>Coimbatore</li>
+         </ul>
+        </div>
+         <div id="paraaa">
+            <h4>QUICK LINKS</h4>
+         <ul>
+              <li><a href="index7.html">Privacy Policy</a></li>
+              <li><a href="index5.html">Refund Policy</a></li>
+              <li><a href="index8.html">Shipping Policy</a></li>
+              <li><a href="index6.html">Terms and Conditions</a></li>
+         </ul>
+        </div>
+        
+        <div id="paraaaa">
+          <h4>CONTACT</h4>
+          <p><img src="/Phone.png">08062177481</p>
+          <p><img src="/Gmail Logo.png">info@example.com</p>
+          <p><img src="/mdi_address-marker.png">A-hub, Andhra University, Maddilapalem, Visakhapatnam, 530003, Andhra Pradesh, India</p>
+        </div>
+        
+    
+  </div>
+  <div id="downright"><h5>Cycle your way to happiness</h5></div>
+  <div id="downleft">Copyright @ 2024, Cyclerestore Services. All Rights Reserved.</div>
+</body>
+</html>
+

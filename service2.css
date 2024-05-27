@@ -1,0 +1,1029 @@
+#pages img
+{
+width:20px;
+height:20px;
+}
+#pages a
+{
+color:black;
+}
+#pages a:hover
+{
+color:red;
+}
+#last
+{
+    margin-right:680px;
+}
+#ji
+{
+width:460px;
+height:240px;
+border:1.7px solid black;
+border-radius:15px;
+margin-bottom:20px;
+cursor:pointer;
+margin:auto;
+}
+#ji2
+{
+    width:460px;
+    height:240px;
+    border:1.7px solid black;
+    border-radius:15px;
+    margin-bottom:20px;
+    cursor:pointer;
+    margin:auto; 
+}
+#ji1
+{
+    width:460px;
+height:240px;
+border:1.7px solid black;
+border-radius:15px;
+margin-bottom:20px;
+cursor:pointer;
+margin-left: 5px; 
+}
+#ji2 a
+{
+    color:#000000;
+}
+#ji a
+{
+    color:#000000;
+}
+#ji1 a
+{
+    color: #000000;
+}
+#all
+{
+border:1.9px solid black;
+margin:auto;
+width:1000px;
+border-radius:15px;
+}
+.c
+{
+width:55px;
+height:55px;
+margin-left:2px;
+}
+button
+{
+background-color:black;
+color:white;
+border-radius:10px;
+margin-right:30px;
+}
+#font
+{
+font-family:Rubik;
+}
+#submit1
+{
+width:900px;
+margin-top:20px;
+margin-bottom:40px;
+display: flex;
+margin-left:70px;
+}
+#ji:hover,#ji1:hover,#ji2:hover
+{
+   background-color: black;
+   color:white;
+
+}
+#ji:hover button,#ji1:hover button,#ji2:hover button{
+    background-color: white;
+    color:#000000;
+}
+#ji:hover a,#ji1:hover a,#ji2:hover a
+{
+color:white;
+}
+    #ji:hover img.image{
+    display:none;
+    }
+    #ji img.hover{
+    display:none;
+    }
+    #ji:hover img.hover{
+    display:block;
+    }
+
+    #ji1:hover img.image{
+        display:none;
+        }
+        #ji1 img.hover{
+        display:none;
+        }
+        #ji1:hover img.hover{
+        display:block;
+        }
+
+        #ji2:hover img.image{
+            display:none;
+            }
+            #ji2 img.hover{
+            display:none;
+            }
+            #ji2:hover img.hover{
+            display:block;
+            }
+#hover
+{
+box-shadow:0px 3px 5px rgba(0,0,0,0.6);
+}
+#header
+{
+    background-color:#000000;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 11%;
+}
+#header a
+{
+    color:#FFFFFF;
+    text-decoration:None;
+}
+
+#pages
+{
+    border:2px solid black;
+    width:70%;
+    height:6%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+}
+h1
+{
+    text-align: center;
+}
+h3
+{
+    margin-left: 25px;
+}
+#price
+{
+    margin-left:10px;
+}
+#price button
+{
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    height:35px;
+    width:100px;
+}
+#submit1 button
+{
+    width:100px;
+    height:45px;
+}
+#submit1 a
+{
+    color:white;
+    text-decoration:none;
+    font-size:17px;  
+}
+#bsa
+{
+    display:flex;
+    border-radius: 15px;
+}
+#bsa2
+{
+    display:flex;
+    border-radius: 15px;
+}
+#bsa1
+{
+    display:flex;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    margin-left: 3px;
+}
+#ib
+{
+    margin-top:16px;
+}
+#im
+{
+    margin-top:2px;
+}
+#home a
+{
+    margin-left:25px;
+}
+#services a
+{
+    margin-left:25px;
+}
+#about us a
+{
+    margin-left:20px;
+    margin-right:15px;
+}
+#contact us a
+{
+    margin-right:100px;
+}
+#header img
+{
+    width:110px;
+    height:100px;
+}
+#header img
+{
+    margin-right:550px;
+    text-align: left;
+}
+
+#footer
+{
+    width:100%;
+    height:640px;
+    background-color: black;
+    font-family:Rubik;
+    margin-top: 100px;
+    left: 0px;
+    position:absolute;
+    scroll-behavior: auto; 
+}
+#icons img
+{
+    width:30px;
+    height:30px;
+   margin-right:20px;
+   margin-top: 80px;
+}
+#icons
+{
+    margin-left:1200px;
+    width:280px;  
+    height:40px;
+}
+#logo
+{
+    width:100px;
+    height:100px;
+    margin-top:0px;
+    margin-left: 0px;
+}
+#allf
+{
+    width:1350px;
+    color:white;
+    display:flex;
+    height:300px;
+    margin-left:80px;
+    justify-content: space-between;
+    margin-top:140px;
+}
+ul
+{
+    color:white;
+}
+#para
+{
+    width:310px;
+    height:150px;
+    margin-top:5px;
+}
+#para,#paraa,#paraaaa,#paraaa
+{
+    text-align: left;
+}
+ul,a
+{
+    color:white;
+}
+h4
+{
+    margin-left:22px;
+}
+li
+{
+    padding-bottom:17px;
+    text-decoration: underline;
+}
+#paraaaa img
+{
+     width:20px;
+     height:20px;
+     margin-right:5px;
+     vertical-align:text-bottom;
+}
+#paraaaa
+{
+    width:345px;
+    height:200px;
+}
+#paraaaa h4
+{
+    margin-left: 0px;
+}
+#downleft
+{
+    color:white;
+    text-align: left;
+    margin-left:20px;
+}
+#downright
+{
+ margin-right: 40px;
+    color: white;
+    text-align:right;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (min-width:769px) and (max-width:1200px)
+{   #footer
+    {
+      width: 1480px;
+    }
+    #header img
+    {
+        margin-left:30px;
+        text-align: left;
+        margin-right:210px;
+    }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+    h1
+    {
+       margin-left:200px;
+       margin-top:40px;
+       width:1100px;
+       font-size: 58px;
+    }
+   
+    #ji,#ji1,#ji2
+    {
+        width:700px;
+        height:350px;
+    }
+    #all
+    {
+        margin-left: 5px;
+        margin-bottom: 10px;
+        width:1450px;
+    }
+    #ib
+    {
+        margin-top:20px;
+    }
+    #ib img
+    {
+        width: 70px;
+        height: 70px;
+    }
+    #pj
+    {
+        font-size: xx-large;
+    }
+    #price
+    {
+        font-size: larger;
+    }
+    #dt
+    {
+        margin-left: 20px;
+        width:800px;
+        font-size:x-large;
+    }   
+    #last
+    {
+        margin-right: 1150px;
+    } 
+    #submit1
+    {
+        width:1350px;
+    }
+    #pages img
+    {
+      width: 40px;
+      height:40px;
+    }
+     #pages
+     {
+       width: 950px;
+       margin-left: 270px;
+       height:60px;
+       font-size: xx-large;
+       margin-bottom: 30px;
+       border: 1px solid rgb(15, 14, 14);
+     }
+     h3
+     {
+        font-size: xx-large;
+     }
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (max-width:999px)
+{   #footer
+    {
+      width: 1480px;
+    }
+    #header img
+    {
+        margin-left:30px;
+        text-align: left;
+        margin-right:210px;
+    }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+    h1
+    {
+       margin-left:440px;
+       margin-top:10px;
+       width:1100px;
+       font-size: 58px;
+    }
+    #pages
+    {
+        width:550px;
+        margin-left:465px;
+        margin-top:0px;
+    } 
+    #all
+    {
+        margin-left: 240px;
+        margin-bottom: 10px;
+    }    
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (min-width:601px) and (max-width:768px)
+{   #footer
+    {
+      width: 1480px;
+    }
+    #header img
+    {
+        margin-left:30px;
+        text-align: left;
+        margin-right:210px;
+    }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+    h1
+    {
+       margin-left:200px;
+       margin-top:40px;
+       width:1100px;
+       font-size: 58px;
+       margin-bottom: 20px;
+    }
+   
+    #ji,#ji1,#ji2
+    {
+        width:700px;
+        height:350px;
+    }
+    #all
+    {
+        margin-left: 5px;
+        margin-bottom: 10px;
+        width:1450px;
+    }
+    #ib
+    {
+        margin-top:20px;
+    }
+    #ib img
+    {
+        width: 70px;
+        height: 70px;
+    }
+    #pj
+    {
+        font-size: xx-large;
+    }
+    #price
+    {
+        font-size: larger;
+    }
+    #dt
+    {
+        margin-left: 20px;
+        width:800px;
+        font-size:x-large;
+    }   
+    #last
+    {
+        margin-right: 1150px;
+    } 
+    #submit1
+    {
+        width:1350px;
+    }
+    #pages img
+    {
+      width: 40px;
+      height:40px;
+    }
+     #pages
+     {
+       width: 950px;
+       margin-left: 270px;
+       height:60px;
+       font-size: xx-large;
+       margin-bottom: 30px;
+       border: 1px solid rgb(15, 14, 14);
+     }
+     h3
+     {
+        font-size: xx-large;
+     }
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (max-width:600px)
+{   #footer
+    {
+      width: 1468px;
+    }
+    #header img
+    {
+        margin-left:30px;
+        text-align: left;
+        margin-right:210px;
+    }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+   h1
+   {
+    padding-left: 95px;
+    padding-top: 25px;
+    margin-left: 350px;
+    width:1100px;
+    font-size: 58px;
+   }
+   #table2
+   {
+    padding-left: 90px;
+   }
+   #pages
+   {
+    margin-left: 373px;
+    border:1.9px solid black;
+   }
+    #bsa,#bsa2
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }  
+    #ji
+    {
+        margin-bottom: 0px;
+    }
+    #ji1
+    {
+        margin-left: 105px;
+    }
+    #ib
+    {
+        margin-top:20px;
+    }
+    #ji2
+    {
+        margin-top:55px;
+    }
+    #all
+    {
+        width:700px;
+        margin-left: 400px;
+        margin-bottom: 60px;
+    }
+    h3
+    {
+        margin-left:270px;
+    }
+   #last
+   {
+    margin-right:380px;
+   }
+    
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (min-width:377px) and (max-width:475px)
+{   
+    #footer
+    {
+      width: 1350px;
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+    #header img
+    {
+      margin-right: 450px;
+    }
+    #header
+    {
+      height:5%;
+      width:100%;
+    }
+  
+    #top,#paraa,#paraaa,#paraaaa
+    { 
+      margin-left:2px;
+      margin-right: 2px;
+    }
+    #allf
+  {
+    margin-left: 0px;
+   justify-content:space-evenly;
+  }
+  #downright
+  {
+    margin-right: 16px;
+  }
+  #icons
+  {
+    margin-left: 970px;
+  }
+  h1{
+    margin-left: 50px;
+    margin-bottom:45px;
+    margin-top: 40px;
+    width:1100px;
+    font-size: 58px;
+  }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+  
+   #table2
+   {
+    padding-left: 90px;
+   }
+   #pages img
+  {
+    width: 40px;
+    height:40px;
+  }
+   #pages
+   {
+     width: 950px;
+     margin-left: 120px;
+     height:60px;
+     font-size: xx-large;
+     margin-bottom: 0px;
+     border: 1px solid rgb(15, 14, 14);
+   }
+    #bsa,#bsa2
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }  
+    #ji
+    {
+        margin-bottom: 0px;
+        width: 800px;
+        height:350px;
+    }
+    #ji1
+    {
+        margin-left: 85px;
+        width: 800px;
+        height:350px;
+    }
+    #ib
+    {
+        margin-top:20px;
+    }
+    #ib img
+    {
+        width: 70px;
+        height: 70px;
+    }
+    #pj
+    {
+        font-size: xx-large;
+    }
+    #ji2
+    {
+        margin-top:55px;
+        width: 800px;
+        height:350px;
+    }
+    #price
+    {
+        font-size: larger;
+    }
+    #dt
+    {
+        margin-left: 20px;
+        width:800px;
+        font-size:x-large;
+    }
+    #all
+    {
+        width:1000px;
+        margin-left: 180px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    h3
+    {
+        margin-left:100px;
+        font-size: xx-large;
+    }
+   #last
+   {
+    margin-right:480px;
+    margin-left: 80px;
+   }
+    #im button 
+    {
+        width:100px;
+        height:50px;
+    }
+    
+    
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (min-width:321px) and (max-width:376px)
+{   #footer
+    {
+      width: 1350px;
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+    #header img
+    {
+      margin-right: 450px;
+    }
+    #header
+    {
+      height:5%;
+      width:100%;
+    }
+  
+    #top,#paraa,#paraaa,#paraaaa
+    { 
+      margin-left:2px;
+      margin-right: 2px;
+    }
+    #allf
+  {
+    margin-left: 0px;
+   justify-content:space-evenly;
+  }
+  #downright
+  {
+    margin-right: 16px;
+  }
+  #icons
+  {
+    margin-left: 970px;
+  }
+  h1{
+    margin-left: 55px;
+    margin-bottom:45px;
+    margin-top: 40px;
+    width:1100px;
+    font-size: 58px;
+  }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+  
+   #table2
+   {
+    padding-left: 90px;
+   }
+   #pages img
+  {
+    width: 40px;
+    height:40px;
+  }
+   #pages
+   {
+     width: 950px;
+     margin-left: 120px;
+     height:60px;
+     font-size: xx-large;
+     margin-bottom: 0px;
+     border: 1px solid rgb(15, 14, 14);
+   }
+    #bsa,#bsa2
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }  
+    #ji
+    {
+        margin-bottom: 0px;
+        width: 800px;
+        height:350px;
+    }
+    #ji1
+    {
+        margin-left: 85px;
+        width: 800px;
+        height:350px;
+    }
+    #ib
+    {
+        margin-top:20px;
+    }
+    #ib img
+    {
+        width: 70px;
+        height: 70px;
+    }
+    #pj
+    {
+        font-size: xx-large;
+    }
+    #ji2
+    {
+        margin-top:55px;
+        width: 800px;
+        height:350px;
+    }
+    #price
+    {
+        font-size: larger;
+    }
+    #dt
+    {
+        margin-left: 20px;
+        width:800px;
+        font-size:x-large;
+    }
+    #all
+    {
+        width:1000px;
+        margin-left: 180px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    h3
+    {
+        margin-left:100px;
+        font-size: xx-large;
+    }
+   #last
+   {
+    margin-right:480px;
+    margin-left: 80px;
+   }
+    #im button 
+    {
+        width:100px;
+        height:50px;
+    }
+    
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (max-width:320px)
+{   
+    #footer
+    {
+      width: 1350px;
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+    #header img
+    {
+      margin-right: 450px;
+    }
+    #header
+    {
+      height:5%;
+      width:100%;
+    }
+  
+    #top,#paraa,#paraaa,#paraaaa
+    { 
+      margin-left:2px;
+      margin-right: 2px;
+    }
+    #allf
+  {
+    margin-left: 0px;
+   justify-content:space-evenly;
+  }
+  #downright
+  {
+    margin-right: 16px;
+  }
+  #icons
+  {
+    margin-left: 970px;
+  }
+  h1{
+    margin-left: 20px;
+    margin-bottom:60px;
+    margin-top: 100px;
+    width:1100px;
+    font-size: 44px;
+  }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+  
+   #table2
+   {
+    padding-left: 90px;
+   }
+   #pages
+   {
+     width: 750px;
+     margin-left: 190px;
+     height:60px;
+     font-size: x-large;
+   }
+    #bsa,#bsa2
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }  
+    #ji
+    {
+        margin-bottom: 0px;
+    }
+    #ji1
+    {
+        margin-left: 105px;
+    }
+    #ib
+    {
+        margin-top:20px;
+    }
+    #ji2
+    {
+        margin-top:55px;
+    }
+    #all
+    {
+        width:700px;
+        margin-left: 300px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    h3
+    {
+        margin-left:270px;
+    }
+   #last
+   {
+    margin-right:380px;
+   }
+    
+}
+
