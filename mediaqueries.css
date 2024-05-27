@@ -27,33 +27,6 @@
     }
 }
 
-@media screen and (min-width: 1056px) {
-    .firstheading{
-        margin-top: 50px;
-    }
-}
-
-
-
-@media screen and (max-width: 1056px) {
-    .hero-left{
-        margin-top:80px;
-    }
-    
-    .small-heading{
-        margin-top: 40px;
-    }
-    
-    .hero-left h1{
-        font-size: 3rem;
-    }
-    
-    .hero-left p{
-        font-size: 1.35rem;
-    }
-}
-
-
 @media screen and (max-width: 1000px) {
     .sub-footer-collective {
         gap: 70px;
@@ -126,20 +99,6 @@
         gap: 37px;
     }
 }
-
-@media screen and (min-width: 910px) {
-    .hero-left{
-        margin-top: 205px;
-    }
-}
-
-
-@media screen and (min-width: 804px) {
-    .hero-left{
-        margin-top: 185px;
-    }
-}
-
 
 
 @media screen and (max-width: 991px) {
@@ -315,44 +274,9 @@
     }
 }
 
-@media screen and (max-width: 805px) {
-    .hero-left{
-        margin-top: 175px;
-    }
-    
-}
-
-
 @media screen and (max-width: 534px) {
     .total {
         margin-left: 30px;
-    }
-
-    .hero-left{
-        margin-top: 165px;
-    }
-    
-    .hero-left h1{
-        font-size: 2.5rem;
-    }
-    
-    .hero-left p{
-        font-size: 1.25rem;
-    }
-}
-
-@media screen and (max-width: 1053px) {
-
-    .hero-left{
-        margin-top:250px;
-    }
-}
-
-
-@media screen and (max-width: 421px) {
-
-    .hero-left{
-        margin-top:200px;
     }
 }
 
@@ -375,7 +299,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 479px) {
     .sub-footer {
         margin-bottom: 0px;
     }
@@ -397,6 +321,16 @@
     }
 
 
+    .button-container button {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0) !important;
+    }
+
+    .button-container button:hover {
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255) !important;
+    }
 }
 
 @media (min-width:383px) and (max-width:409px) {
@@ -404,6 +338,13 @@
         margin-top: -370px;
     }
 }
+
+@media screen and (min-width: 479px) {
+    .hero-back {
+        display: none !important;
+    }
+}
+
 @media screen and (min-width: 409px) {
     .hero-back img {
         margin-top: -330px;
@@ -418,7 +359,7 @@
 
 
 
-@media screen and (min-width: 120px) {
+@media (min-width: 120px) and (max-width:480px) {
     .hero-back img {
         margin-top: -420px;
         height: 550px;
@@ -435,51 +376,8 @@
     .service-container {
         margin-top: 60px;
     }
-    .hr-header{
-        display: none;
-    }
-}
 
-
-@media (min-width:120px) and (max-width:990px) {
-    .header-companylog img{
+    .header-companylog img {
         width: 100px;
-    }
-}
-
-
-@media (min-width:543px) {
-    .hero-back img {
-        margin-top: -300px;
-    }
-}
-
-@media (min-width: 542px) and (max-width:693px) {
-    .hero-back img {
-        margin-top: -400px;
-    }
-}
-
-
-@media (min-width:1274px) {
-    .hero-back img {
-        margin-top: -300px;
-    }
-}
-
-@media (max-width:347px) {
-    .hero-left{
-        margin-top: 180px;
-    }
-}
-
-@media (max-width:317px) {
-    .hero-left h1{
-        font-size: 2.2rem;
-        margin-top: 20px;
-    }
-    .hero-left p{
-        font-size: 1rem;
-        margin-top: 14px;
     }
 }
